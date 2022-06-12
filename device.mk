@@ -67,7 +67,7 @@ TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 
 # Vibrator
-# disable vibration for testing purposes
+TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
