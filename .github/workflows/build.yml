@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       crypto:
-        description: "是否禁用加密模块，true or false"
+        description: "Whether to disable the encryption module，true or false"
         required: false
         default: "false"
       Enable_cache:
-        description: "是否启用cache，true or false"
+        description: "Whether to disable cache，true or false"
         required: true
         default: "true"
       Delete_oldReleases:
-        description: "是否删除旧的发布，true or false"
+        description: "Whether to delete an old release ，true or false"
         required: false
         default: "false"
 env:
