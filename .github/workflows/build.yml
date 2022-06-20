@@ -19,9 +19,9 @@ env:
   Rec_name: TWRP11
   Rec_ver: 3.6.0
   Rec_url: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp -b twrp-11
-  device: begonia
+  device: raphael
   DT_url: https://github.com/kondors1995/android_device_xiaomi_raphael-twrp -b twrp-12.1
-  DT_path: device/redmi/begonia
+  DT_path: device/redmi/raphael
   ProductFileHeader: twrp
   target: recoveryimage
   WorkSpace: WorkSpace
